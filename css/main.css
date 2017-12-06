@@ -1,1 +1,201 @@
 /* Los estilos de tu proyecto */
+/*ESTILOS SECCION REGISTRO*/
+.register {
+	background-image: url(../assets/images/taxi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	padding: 10% 0;
+}
+.no-margin {
+	margin: 0;
+}
+.register-box {
+	background-color: #fcbf00;
+	color: #fff;
+}
+.white-logo {
+	width: 20%;
+	padding-left: 2%;
+}
+.line {
+	padding: 10%;
+	color: #fff;
+}
+.title-register {
+	margin: 0;
+	margin-top: 3%;
+}
+.subtitle-register {
+	margin-top: 0;
+	margin-bottom: 8%;
+}
+.button, .button2 {
+	margin-bottom: 8%;
+}
+.button a, .button2 a {
+	color: #000;
+}
+.button2 {
+	margin-top: 3%;
+}
+/*ESTILOS SECCION DESCARGA APP*/
+.new-app {
+	background-color: #fcbf00;
+	color: #fff;
+}
+.white-margin {
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-right: 15%;
+}
+.place-center, .centered {
+	text-align: center;
+}
+.spacing {
+	padding: 5%;
+}
+.iphone {
+  padding: 5% 0;
+}
+.text-iphone {
+  padding: 3% 0;
+  font-size: 1.5em;
+}
+/*ESTILOS SECCION DRIVERS*/
+.drivers {
+  background-image: url(../assets/images/conduce.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.text-drivers {
+  background-color: rgba(0,0,0,0.6);
+  padding: 5% 0 10% 0;
+}
+.move {
+  color: #fff;
+  margin-top: 20%;
+  margin-left: 5%;
+  font-size: 1.5em;
+}
+.button3 {
+  background-color: #fcbf00;
+}/*ESTILOS SECCION MAPA*/
+.map {
+	background-color: #fcbf00;
+}
+.moving {
+	margin: 5% 0;
+	font-size: 1.5em;
+	color: #fff;
+}
+.change-color {
+	padding: 2%;
+}
+.yellow {
+	background-color: #fcbf00;
+	border: none;
+}
+.yellow::placeholder {
+	color: #fff;
+}
+.borders {
+	border: 1px solid #fff;
+}
+.photo-map {
+	width: 400px;
+	height: 300px;
+	border: 1px solid #fff;
+	padding: 1%;
+}
+iframe {
+	width: 100%;
+	height: 100%;
+}
+.button4 {
+	margin: 5% 0 10% 40%;
+}
+/*ESTILOS FOOTER*/
+footer {
+	background-color: #2f2f2f;
+	color: #fff;
+}
+.list-footer ul {
+	list-style: none;
+	padding-left: 0;
+}
+.list-footer li {
+	padding: 5% 0;
+}
+.icons, .icons-hidden {
+	display: inline-block;
+}
+.bottom {
+	padding-top: 30%;
+}
+.bottom2 {
+	padding-top: 56%;
+}
+.rights {
+	padding-bottom: 5%;
+}
+/*MODAL INICIO SESION*/
+.back-green {
+	background-color: #00b39d;
+	width: 70%;
+}
+.fa-user-circle {
+	padding-left: 35%;
+}
+.inputs {
+	background-color: #f5f5f5;
+	border-radius: 3%;
+	padding: 2% 0;
+}
+.input-singin {
+	margin: 5%;
+}
+.btn-login {
+	margin-left: 20%;
+}
+/*MODAL REGISTRO Y CONDUCTOR*/
+.back-gray {
+	background-color: #a8a8a8;
+}
+.btn-register1 {
+	padding: 1% 35%;
+	background-color: #000;
+	color: #fff;
+  border: none;
+}
+.pregister {
+	text-align: center;
+}
+.btn-register2 {
+	padding: 1% 31%;
+  margin-bottom: 1%;
+}
+.btn-register3 {
+  padding: 1% 45%;
+}
+.btn-send {
+	padding: 3% 43%;
+	font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+	.white-margin {
+		border: 2px solid #fff;
+		margin-left: 7%;
+	}
+	.btn-bars {
+		float: left;
+	}
+	.logo-nav {
+		margin-left: 50%;
+	}
+}
