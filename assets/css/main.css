@@ -1,7 +1,7 @@
 /* Los estilos de tu proyecto */
 /*ESTILOS SECCION REGISTRO*/
 .register {
-	background-image: url(../assets/images/taxi.jpg);
+	background-image: url(../images/taxi.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom;
@@ -67,7 +67,7 @@
 }
 /*ESTILOS SECCION DRIVERS*/
 .drivers {
-  background-image: url(../assets/images/conduce.jpg);
+  background-image: url(../images/conduce.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
